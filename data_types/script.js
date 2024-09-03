@@ -15,6 +15,9 @@ console.log(+'5000')  // it converts the '5000' string to number
 console.log(-'2000') // it converts the '2000' string into -2000 number
 console.log( + 'hello')  // it prints NaN (not a number)
 console.log(- 'minus')   // it is prints NaN (not a number)
+console.log(parseInt('5000'))  // it prints 2000
+console.log(parseInt('u2000')) // it prints NaN
+console.log(parseInt('98u89')) // it prints 98
 
 // number to string 
 console.log(1000 + '' ) // it prints '1000' as string
