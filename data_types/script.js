@@ -43,4 +43,3 @@ console.log(BigInt(2000)); // it prints 2000n
 console.log(BigInt('2999')) // it prints 2999n 
 
 // 7.Symbol 
-
